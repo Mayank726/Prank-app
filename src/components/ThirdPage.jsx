@@ -38,8 +38,8 @@ const ThirdPage = () => {
 
   return (
     <>
-      <div  className="h-full w-full max-w-md border-2 border-black mx-auto p-2">
-        <div className="flex flex-col md:flex-row justify-start items-center relative ">
+      <div  className="overflow-x-auto h-full w-full max-w-md border-2 border-black mx-auto p-2">
+        <div className="min-w-[900px] flex flex-col md:flex-row justify-start items-center relative ">
           <img
             className="h-20 w-20 object-contain ml-4"
             src="/bseb-logo.jpg"
