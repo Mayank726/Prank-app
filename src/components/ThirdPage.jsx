@@ -38,8 +38,8 @@ const ThirdPage = () => {
 
   return (
     <>
-      <div  className="overflow-x-auto h-full w-full max-w-md border-2 border-black mx-auto p-2">
-        <div className="min-w-[900px] flex flex-col md:flex-row justify-start items-center relative ">
+      <div  className="h-full w-full max-w-md border-2 border-black mx-auto p-2">
+        <div className="flex flex-col md:flex-row justify-start items-center relative ">
           <img
             className="h-20 w-20 object-contain ml-4"
             src="/bseb-logo.jpg"
@@ -59,52 +59,52 @@ const ThirdPage = () => {
         </div>
         <hr />
 
-        <div className='overflow-x-auto'>
-          <table className="min-w-[900px] table-auto border border-b-gray-700 w-full">
+        <div className=''>
+          <table className=" table-auto border border-b-gray-700 w-full">
             <thead>
               <tr>
                 <th className="border border-gray-700 px-4 py-2 text-1xl text-left whitespace-nowrap">
                   BSEB Unique Id
                 </th>
-                <th className="border text-left pl-2 whitespace-nowrap">1234555</th>
+                <th className="border text-left pl-2 ">1234555</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-1xl text-left whitespace-nowrap">
+                <th className="border border-gray-700 px-4 py-2 text-1xl text-left">
                   Student Name
                 </th>
-                <th className="border text-left pl-2 whitespace-nowrap">{studentData.name}</th>
+                <th className="border text-left pl-2">{studentData.name}</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
+                <th className="border border-gray-700 px-4 py-2 text-left ">
                   Father Name
                 </th>
-                <th className="border text-left pl-2 whitespace-nowrap">{studentData.fatherName}</th>
+                <th className="border text-left pl-2">{studentData.fatherName}</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
+                <th className="border border-gray-700 px-4 py-2 text-left">
                   School Name
                 </th>
-                <th className="text-left pl-2 whitespace-nowrap">
+                <th className="text-left pl-2 ">
                   {studentData.schoolName}
                 </th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
+                <th className="border border-gray-700 px-4 py-2 text-left ">
                   Roll Code
                 </th>
-                <th className="border text-left pl-2 whitespace-nowrap">{studentData.rollCode}</th>
+                <th className="border text-left pl-2 ">{studentData.rollCode}</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
+                <th className="border border-gray-700 px-4 py-2 text-left ">
                   Roll No
                 </th>
-                <th className="border text-left pl-2 whitespace-nowrap">{studentData.rollNo}</th>
+                <th className="border text-left pl-2 ">{studentData.rollNo}</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
+                <th className="border border-gray-700 px-4 py-2 text-left ">
                   Registration No
                 </th>
-                <th className="border text-left pl-2 whitespace-nowrap">43036-00225-78</th>
+                <th className="border text-left pl-2 ">43036-00225-78</th>
               </tr>
             </thead>
             
