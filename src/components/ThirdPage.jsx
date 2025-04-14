@@ -60,51 +60,51 @@ const ThirdPage = () => {
         <hr />
 
         <div className='overflow-x-auto'>
-          <table className="table-auto border border-b-gray-700 w-full">
+          <table className="min-w-[900px] table-auto border border-b-gray-700 w-full">
             <thead>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-1xl text-left ">
+                <th className="border border-gray-700 px-4 py-2 text-1xl text-left whitespace-nowrap">
                   BSEB Unique Id
                 </th>
-                <th className="border text-left pl-2">1234555</th>
+                <th className="border text-left pl-2 whitespace-nowrap">1234555</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-1xl text-left">
+                <th className="border border-gray-700 px-4 py-2 text-1xl text-left whitespace-nowrap">
                   Student Name
                 </th>
-                <th className="border text-left pl-2">{studentData.name}</th>
+                <th className="border text-left pl-2 whitespace-nowrap">{studentData.name}</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left">
+                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
                   Father Name
                 </th>
-                <th className="border text-left pl-2">{studentData.fatherName}</th>
+                <th className="border text-left pl-2 whitespace-nowrap">{studentData.fatherName}</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left">
+                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
                   School Name
                 </th>
-                <th className="text-left pl-2">
+                <th className="text-left pl-2 whitespace-nowrap">
                   {studentData.schoolName}
                 </th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left">
+                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
                   Roll Code
                 </th>
-                <th className="border text-left pl-2">{studentData.rollCode}</th>
+                <th className="border text-left pl-2 whitespace-nowrap">{studentData.rollCode}</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left">
+                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
                   Roll No
                 </th>
-                <th className="border text-left pl-2">{studentData.rollNo}</th>
+                <th className="border text-left pl-2 whitespace-nowrap">{studentData.rollNo}</th>
               </tr>
               <tr>
-                <th className="border border-gray-700 px-4 py-2 text-left">
+                <th className="border border-gray-700 px-4 py-2 text-left whitespace-nowrap">
                   Registration No
                 </th>
-                <th className="border text-left pl-2">43036-00225-78</th>
+                <th className="border text-left pl-2 whitespace-nowrap">43036-00225-78</th>
               </tr>
             </thead>
             
@@ -116,66 +116,66 @@ const ThirdPage = () => {
         </div>
 
         <div className='overflow-x-auto'>
-          <table className="table-auto border border-b-gray-700 w-full">
+          <table className="min-w-[900px] table-auto border border-b-gray-700 w-full">
             <thead>
               <tr>
-                <th className="border border-gray-700 px-4 py-2">Subject</th>
-                <th className="border border-gray-700 px-4 py-2">F.Marks</th>
-                <th className="border border-gray-700 px-4 py-2">P.Marks</th>
-                <th className="border border-gray-700 px-4 py-2">Theory</th>
-                <th className="border border-gray-700 px-4 py-2">INT/PRAC</th>
-                <th className="border border-gray-700 px-4 py-2">Regulation</th>
-                <th className="border border-gray-700 px-4 py-2">
+                <th className="border border-gray-700 px-4 py-2 whitespace-nowrap">Subject</th>
+                <th className="border border-gray-700 px-4 py-2 whitespace-nowrap">F.Marks</th>
+                <th className="border border-gray-700 px-4 py-2 whitespace-nowrap">P.Marks</th>
+                <th className="border border-gray-700 px-4 py-2 whitespace-nowrap">Theory</th>
+                <th className="border border-gray-700 px-4 py-2 whitespace-nowrap">INT/PRAC</th>
+                <th className="border border-gray-700 px-4 py-2 whitespace-nowrap">Regulation</th>
+                <th className="border border-gray-700 px-4 py-2 whitespace-nowrap">
                   Subject Total
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th className="border">M.I.L HINDI</th>
-                <th className="border">100</th>
-                <th className="border">030</th>
-                <th className="border">{hindi}</th>
-                <th className="border">-</th>
-                <th className="border">-</th>
-                <th className="border">{hindi}</th>
+                <th className="border whitespace-nowrap">M.I.L HINDI</th>
+                <th className="border whitespace-nowrap">100</th>
+                <th className="border whitespace-nowrap">030</th>
+                <th className="border whitespace-nowrap">{hindi}</th>
+                <th className="border whitespace-nowrap">-</th>
+                <th className="border whitespace-nowrap">-</th>
+                <th className="border whitespace-nowrap">{hindi}</th>
               </tr>
 
               <tr>
-                <th className="border">S.I.L SANSKRIT</th>
-                <th className="border">100</th>
-                <th className="border">030</th>
-                <th className="border">{sanskrit}</th>
-                <th className="border">-</th>
-                <th className="border">-</th>
-                <th className="border">{sanskrit}</th>
+                <th className="border whitespace-nowrap">S.I.L SANSKRIT</th>
+                <th className="border whitespace-nowrap">100</th>
+                <th className="border whitespace-nowrap">030</th>
+                <th className="border whitespace-nowrap">{sanskrit}</th>
+                <th className="border whitespace-nowrap">-</th>
+                <th className="border whitespace-nowrap">-</th>
+                <th className="border whitespace-nowrap">{sanskrit}</th>
               </tr>
               <tr>
-                <th className="border">MATHEMATICS</th>
-                <th className="border">100</th>
-                <th className="border">030</th>
-                <th className="border">{math}</th>
-                <th className="border">-</th>
-                <th className="border">-</th>
-                <th className="border">{math}</th>
+                <th className="border whitespace-nowrap">MATHEMATICS</th>
+                <th className="border whitespace-nowrap">100</th>
+                <th className="border whitespace-nowrap">030</th>
+                <th className="border whitespace-nowrap">{math}</th>
+                <th className="border whitespace-nowrap">-</th>
+                <th className="border whitespace-nowrap">-</th>
+                <th className="border whitespace-nowrap">{math}</th>
               </tr>
               <tr>
-                <th className="border">SCIENCE</th>
-                <th className="border">100</th>
-                <th className="border">030</th>
-                <th className="border">{science}</th>
-                <th className="border">020</th>
-                <th className="border">-</th>
-                <th className="border">{science}</th>
+                <th className="border whitespace-nowrap">SCIENCE</th>
+                <th className="border whitespace-nowrap">100</th>
+                <th className="border whitespace-nowrap">030</th>
+                <th className="border whitespace-nowrap">{science}</th>
+                <th className="border whitespace-nowrap">020</th>
+                <th className="border whitespace-nowrap">-</th>
+                <th className="border whitespace-nowrap">{science}</th>
               </tr>
               <tr>
-                <th className="border">SOCIAL SCIENCE</th>
-                <th className="border">100</th>
-                <th className="border">030</th>
-                <th className="border">{social}</th>
-                <th className="border">010 + 010</th>
-                <th className="border">-</th>
-                <th className="border">{social}</th>
+                <th className="border whitespace-nowrap">SOCIAL SCIENCE</th>
+                <th className="border whitespace-nowrap">100</th>
+                <th className="border whitespace-nowrap">030</th>
+                <th className="border whitespace-nowrap">{social}</th>
+                <th className="border whitespace-nowrap">010 + 010</th>
+                <th className="border whitespace-nowrap">-</th>
+                <th className="border whitespace-nowrap">{social}</th>
               </tr>
             </tbody>
           </table>
@@ -184,32 +184,32 @@ const ThirdPage = () => {
           <h4>Final Result</h4>
         </div>
 
-        <div>
-          <table className="table-auto border border-b-gray-700 w-full">
+        <div className='overflow-x-auto'>
+          <table className="min-w-[900px] table-auto border border-b-gray-700 w-full">
             <tr>
-              <th className="border">Result/Division</th>
-              <th className="border">1st Division</th>
-              <th className="">Total Marks:</th>
-              <th className="">{total}</th>
+              <th className="border whitespace-nowrap">Result/Division</th>
+              <th className="border whitespace-nowrap">1st Division</th>
+              <th className="whitespace-nowrap">Total Marks:</th>
+              <th className="whitespace-nowrap">{total}</th>
             </tr>
           </table>
         </div>
 
-        <div>
-          <table className="table-auto border border-b-gray-700 w-full">
+        <div className='overflow-x-auto'>
+          <table className="min-w-[900px] table-auto border border-b-gray-700 w-full">
             <tr>
-              <th className="border">ENGLISH</th>
-              <th className="border">100</th>
-              <th className="border">030</th>
-              <th className="border">{eng}</th>
-              <th className="border">-</th>
-              <th className="border">-</th>
-              <th className="border">{eng}</th>
+              <th className="border whitespace-nowrap">ENGLISH</th>
+              <th className="border whitespace-nowrap">100</th>
+              <th className="border whitespace-nowrap">030</th>
+              <th className="border whitespace-nowrap">{eng}</th>
+              <th className="border whitespace-nowrap">-</th>
+              <th className="border whitespace-nowrap">-</th>
+              <th className="border whitespace-nowrap">{eng}</th>
             </tr>
           </table>
         </div>
         <hr />
-        <div className="flex flex-row justify-center items-center">
+        <div className="flex flex-row justify-center items-center overflow-x-auto">
           <p>F :- Fail</p>
           <p>C :- Compartmental</p>
           <p>B :- Betterment</p>
