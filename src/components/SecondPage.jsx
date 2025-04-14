@@ -35,7 +35,7 @@ const SecondPage = () => {
   return (
     <>
       <div className='flex flex-col justify-start h-screen items-center'>
-        <img className='max-w-full h-auto' src="../src/components/biharlogo.png" alt="" />
+        <img className='max-w-full h-auto' src="/biharlogo.png" alt="" />
         <h3 style={{color: '#a94442'}} className='text-[24px] font-[500] mt-10 underline '>:- ANNUAL SECONDARY SCHOOL EXAMINATION RESULT, 2025 :-</h3>
 
         <form onSubmit={handleSubmit} className='flex flex-col mt-8 gap-5'>
