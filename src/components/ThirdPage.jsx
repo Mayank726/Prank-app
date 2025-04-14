@@ -38,7 +38,7 @@ const ThirdPage = () => {
 
   return (
     <>
-      <div  className="h-full w-full md:w-[50%] border-2 border-black mx-auto p-2">
+      <div  className="h-full w-full md:w-[100%] border-2 border-black mx-auto p-2">
         <div className="flex flex-col md:flex-row justify-start items-center relative ">
           <img
             className="h-20 w-20 object-contain ml-4"
