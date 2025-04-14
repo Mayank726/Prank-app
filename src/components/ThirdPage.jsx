@@ -115,7 +115,7 @@ const ThirdPage = () => {
           <h3 className=" text-[16px] md:text-[18px]">Mark Details</h3>
         </div>
 
-        <div>
+        <div className='overflow-x-auto'>
           <table className="table-auto border border-b-gray-700 w-full">
             <thead>
               <tr>
