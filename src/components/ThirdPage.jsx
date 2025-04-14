@@ -38,8 +38,8 @@ const ThirdPage = () => {
 
   return (
     <>
-      <div style={{ border: "2px solid black" }} className="h-full w-[50%]">
-        <div className="flex flex-row justify-start items-center relative ">
+      <div  className="h-full w-full md:w-[50%] border-2 border-black mx-auto p-2">
+        <div className="flex flex-col md:flex-row justify-start items-center relative ">
           <img
             className="h-20 w-20 object-contain ml-4"
             src="/bseb-logo.jpg"
@@ -47,7 +47,7 @@ const ThirdPage = () => {
           />
           <span
             style={{ color: "#a94442" }}
-            className="font-[900] text-[13pt] text-center absolute left-1/2 transform -translate-x-1/2"
+            className="font-bold text-[14px] md:text-[18px] text-center md:absolute md:left-1/2 md:transform md:-translate-x-1/2"
           >
             Bihar School Examination Board
             <br />
@@ -59,7 +59,7 @@ const ThirdPage = () => {
         </div>
         <hr />
 
-        <div>
+        <div className='overflow-x-auto'>
           <table className="table-auto border border-b-gray-700 w-full">
             <thead>
               <tr>
@@ -112,7 +112,7 @@ const ThirdPage = () => {
         </div>
 
         <div className="flex justify-center items-center w-auto h-10 bg-amber-500">
-          <h3 className=" text-[18px]">Mark Details</h3>
+          <h3 className=" text-[16px] md:text-[18px]">Mark Details</h3>
         </div>
 
         <div>
@@ -189,7 +189,7 @@ const ThirdPage = () => {
             <tr>
               <th className="border">Result/Division</th>
               <th className="border">1st Division</th>
-              <th className="">Tolat Marks:</th>
+              <th className="">Total Marks:</th>
               <th className="">{total}</th>
             </tr>
           </table>
