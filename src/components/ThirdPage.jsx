@@ -42,7 +42,7 @@ const ThirdPage = () => {
         <div className="flex flex-row justify-start items-center relative ">
           <img
             className="h-20 w-20 object-contain ml-4"
-            src="../src/components/bseb-logo.jpg"
+            src="/bseb-logo.jpg"
             alt=""
           />
           <span
